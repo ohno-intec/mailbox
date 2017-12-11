@@ -15,7 +15,9 @@ class bot {
 	public function getmailaddress(){
 
 		$dirList = array();
-		$mailPath = '/home/intec/indec1998.co.jp/mail/intec1998.co.jp';
+		//$mailPath = '/home/intec/indec1998.co.jp/mail/intec1998.co.jp';
+		$mailPath = '../../mail/intec1998.co.jp';
+		echo $mailPath;
 		$mailAddresList = scandir($mailPath);
 		print_r($mailAddresList);
 		
