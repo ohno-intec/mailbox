@@ -3,14 +3,13 @@
 namespace App\Functions;
 
 //メールディレクトリの容量をチェックする関数
-function (){
-	$shroot = $_SERVER["HOME"];
-
+$shroot = function (){
+	return $_SERVER["HOME"];
 }
 
 
-//メール送信する関数
 
+//メール送信する関数
 
 
 ?>
