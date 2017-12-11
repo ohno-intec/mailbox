@@ -1,10 +1,11 @@
 <?php
-
+require_once 'bot.php';
 use App\Functions;
 
 	echo "hello world";
-	$bot = new bot;
+	$bot = new Functions\bot();
 
-	echo($bot->$homepath());
+	echo($bot->homepath());
+	echo($bot->docpath());
 
 ?>
