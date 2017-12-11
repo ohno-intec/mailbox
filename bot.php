@@ -3,8 +3,13 @@
 namespace App\Functions;
 
 //メールディレクトリの容量をチェックする関数
-$shroot = function (){
-	return $_SERVER["HOME"];
+class bot {
+
+	function homepath(){
+		return $_SERVER["HOME"];
+	}
+
+
 }
 
 

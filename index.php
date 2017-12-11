@@ -3,6 +3,8 @@
 use App\Functions;
 
 	echo "hello world";
-	echo($shroot());
+	$bot = new bot;
+
+	echo($bot->$homepath());
 
 ?>
