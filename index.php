@@ -8,4 +8,7 @@ use App\Functions;
 	echo($bot->homepath()."\n");
 	echo($bot->docpath()."\n");
 
+
+	$bot->getmailaddress();
+
 ?>

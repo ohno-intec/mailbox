@@ -14,6 +14,14 @@ class bot {
 
 }
 
+	public function getmailaddress(){
+
+		$dirList = array();
+		$mailPath = '/home/intec/indec1998.co.jp/mail/intec1998.co.jp';
+		$mailAddresList = scandir($mailPath);
+		print_r($mailAddresList);
+		
+	}
 
 
 //メール送信する関数
