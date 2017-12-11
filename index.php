@@ -5,7 +5,7 @@ use App\Functions;
 	echo "hello world";
 	$bot = new Functions\bot();
 
-	echo($bot->homepath());
-	echo($bot->docpath());
+	echo($bot->homepath()."\n");
+	echo($bot->docpath()."\n");
 
 ?>
