@@ -12,8 +12,6 @@ class bot {
 		return $_SERVER['DOCUMENT_ROOT'];
 	}
 
-}
-
 	public function getmailaddress(){
 
 		$dirList = array();
@@ -22,6 +20,10 @@ class bot {
 		print_r($mailAddresList);
 		
 	}
+
+}
+
+
 
 
 //メール送信する関数
